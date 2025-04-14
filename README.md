@@ -1,7 +1,7 @@
 # Proyecto-de-Final-IA
 
-## Nombre
+## Nombre Kendry Misael Garcia Cordero
 
-## Matrícula
+## Matrícula 22-SISN-2-026
 
-## Proyecto
+## Proyecto  Buscador de fuentes

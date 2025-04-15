@@ -4,12 +4,12 @@ from serpapi import GoogleSearch
 import requests
 from bs4 import BeautifulSoup
 
-# --- CONFIGURACIÓN ---
+# --- CONFIGURACIÓN  Kendry Misael Garcia Cordero 22-SISN-2-026  ---
 SERPAPI_KEY = "7eecbebda96575f2199941b6372c52f9d38ba7f05fa8f4e4bb1be18c379662f1"
 OPENAI_KEY = "7eecbebda96575f2199941b6372c52f9d38ba7f05fa8f4e4bb1be18c379662f1"
 openai.api_key = OPENAI_KEY
 
-# --- FUNCIONES ---
+# --- FUNCIONES  Kendry Misael Garcia Cordero 22-SISN-2-026 ---
 def buscar_fuentes(texto, max_resultados=3):
     params = {
         "engine": "google",
@@ -56,7 +56,7 @@ Fuentes encontradas:
     except Exception as e:
         return f"[ERROR ChatGPT] {e}"
 
-# --- INTERFAZ STREAMLIT ---
+# --- INTERFAZ STREAMLIT  Kendry Misael Garcia Cordero 22-SISN-2-026  ---
 st.set_page_config(page_title="Buscador y Verificador de Fuentes", layout="centered")
 st.title("🔍 Buscador y Verificador de Fuentes")
 
